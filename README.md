@@ -28,3 +28,14 @@ $ python train.py with data_root=<ARROW_ROOT> num_gpus=<NUM_GPUS> num_nodes=<NUM
 
 To get test-dev and test-std results, submit result json file /results/vqa_submit_ckpt.json to eval.ai:https://eval.ai/challenge/830/overview.
 
+# Citation
+If you use this repo for your work, please consider citing our paper:
+```
+@article{wang2023differentiable,
+  title={Differentiable Outlier Detection Enable Robust Deep Multimodal Analysis},
+  author={Wang, Zhu and Medya, Sourav and Ravi, Sathya N},
+  journal={arXiv preprint arXiv:2302.05608},
+  year={2023}
+}
+```
+
