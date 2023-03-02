@@ -15,11 +15,16 @@ $ pip install -r requirements.txt
 
 # Run
 
+## Pre-train:
+
+$ python train.py with data_root=<ARROW_ROOT> num_gpus=<NUM_GPUS> num_nodes=<NUM_NODES> task_mlm_itm_clip_bert per_gpu_batchsize=<BS_FITS_YOUR_GPU> <IMAGE_ENCODER> <TEXT_ENCODER> image_size=<IMAGE_SIZE>
+
 We show an example here : fine-tunning and evaluating on VQA tasks:
 
 ## Fine-tuning:
 
 $ python train.py with data_root=<ARROW_ROOT> num_gpus=<NUM_GPUS> num_nodes=<NUM_NODES> task_finetune_vqa_clip_bert per_gpu_batchsize=<BS_FITS_YOUR_GPU> load_path=<PRETRAINED_MODEL> <IMAGE_ENCODER> <TEXT_ENCODER> image_size=<IMAGE_SIZE> <IMAGE_AUGMENTATION>
+
 We provide our VK-OOD-VIT/16B-RoBERTa fine-tuned on VQAv2 checkpoint here: https://drive.google.com/file/d/12HcGhMhAroAExCtjPHfQ9XC99Libeotx/view?usp=sharing
 
 ## Evaluate:
