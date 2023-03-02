@@ -19,7 +19,7 @@ $ pip install -r requirements.txt
 
 $ python train.py data_root=/dataset/pretrain num_gpus=8 num_nodes=1 task_mlm_itm_clip_bert per_gpu_batchsize=64 clip16 text_roberta image_size=244
 
-## Fine-tuning:
+## Fine-tune:
 
 We show an example here : fine-tunning and evaluating on VQA tasks:
 
