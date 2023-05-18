@@ -1,7 +1,8 @@
 # VK-OOD: Differentiable Outlier Detection Enables Robust Deep Multimodal Analysis
 In this work, we propose an end-to-end vision and language model incorporating explicit knowledge graphs. We also introduce an interactive out-of-distribution (OOD) layer using implicit network operator. The layer is used to filter noise that is brought by external knowledge base. In practice, we apply our model on several vision and language downstream tasks including visual question answering, visual reasoning, and image-text retrieval on different datasets. Our experiments show that it is possible to design models that perform similarly to state-of-art results but with significantly fewer samples and training time.
 
-<img width="1503" alt="pipeline" src="https://user-images.githubusercontent.com/10067151/221752945-3e359d09-46f1-412d-8205-ce3093f566de.png">
+<img width="2318" alt="pipline-poster" src="https://github.com/ellenzhuwang/implicitOOD/assets/10067151/48121aa2-1647-4f4a-bb52-e920a8c19572">
+
 
 
 # Install
