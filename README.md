@@ -40,12 +40,22 @@ $ python train.py data_root=/dataset/vqa num_gpus=8 num_nodes=1 task_finetune_vq
 To get test-dev and test-std results, submit result json file /results/vqa_submit_ckpt.json to [eval.ai](https://eval.ai/challenge/830/overview).
 
 # Citation
-If you use this repo for your work, please consider citing our paper:
+If you use this repo for your work, please consider citing our paper and staring this repo:
 ```
 @article{wang2023differentiable,
   title={Differentiable Outlier Detection Enable Robust Deep Multimodal Analysis},
   author={Wang, Zhu and Medya, Sourav and Ravi, Sathya N},
   journal={arXiv preprint arXiv:2302.05608},
+  year={2023}
+}
+```
+```
+@article{wang2023implicit,
+  title={Implicit Differentiable Outlier Detection Enable Robust Deep Multimodal Analysis},
+  author={Wang, Zhu and Medya, Sourav and Ravi, Sathya},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  pages={13854--13872},
   year={2023}
 }
 ```
